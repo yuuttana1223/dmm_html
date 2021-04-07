@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.row {
+  width: 960px;
+  height: 420px;
+  margin: 50px auto;
+}
+
+.list {
+  height: 60px;
+}
+
+.list > p {
+  padding: 20px;
+}
+
+.list:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.big-box {
+  width: 960px;
+  height: 680px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+  margin-right: 5%;
+  background-color: yellow;
+}
+
+.box:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.box:nth-of-type(4n + 1) {
+  background-color: orange;
+}
